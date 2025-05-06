@@ -24,102 +24,86 @@ const menu = async (m, sock) => {
     }
 
     const menuText = `
-═════════════════════
+╭──────────────────⭓
+│  ⚡ 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2 ⚡
+│ Version: 7.1.0
+│ Dev: INCONNU BOY TECH
+╰──────────────────⭓
+ ────────────────────
+𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2
+────────────────────
 
-> ⚡ *INCONNU-XD-V2* ⚡
+⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗 𝗠𝗘𝗡𝗨 』
+│ ⬡ menu
+│ ⬡ alive
+│ ⬡ owner
+╰──────────────────⭓
 
-> *Version*: 7.1.0 |
+⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗 𝗢𝗪𝗡𝗘𝗥 』
+│ ⬡ join
+│ ⬡ leave
+│ ⬡ autobio
+│ ⬡ block
+│ ⬡ unblock
+│ ⬡ autolikestatus
+│ ⬡ antidelete on
+│ ⬡ anticall
+│ ⬡ settings
+│ ⬡ setname
+│ ⬡ vv
+│ ⬡ del
+╰──────────────────⭓
 
-> *DEV : INCONNU BOY TECH*
+⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗 𝗔𝗜 』
+│ ⬡ ai
+│ ⬡ bug
+│ ⬡ report
+│ ⬡ chatbot
+│ ⬡ gpt
+│ ⬡ inconnu-ai
+╰──────────────────⭓
 
-════════════════════
+⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗 𝗖𝗩𝗧𝗥 』
+│ ⬡ attp
+│ ⬡ gimage
+│ ⬡ play
+│ ⬡ video
+╰──────────────────⭓
 
-WELCOME TO INCONNNU-XD-V2
+⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗 𝗦𝗘𝗔𝗥𝗖𝗛 』
+│ ⬡ google
+│ ⬡ mediafire
+│ ⬡ facebook
+│ ⬡ instagram
+│ ⬡ tiktok
+│ ⬡ lyrics
+│ ⬡ imdb
+╰──────────────────⭓
 
-════════════════════
-   *INCONNU XD MENU*
-════════════════════
-|  | ${prefix}menu
-|  | ${prefix}alive
-|  | ${prefix}owner
-|  | ${prefix}menu
-════════════════════
+⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗 𝗙𝗨𝗡 』
+│ ⬡ getpp
+│ ⬡ url
+│ ⬡ roast
+╰──────────────────⭓
 
-════════════════════
-   *INCONNU-XD OWNER*
-════════════════════
-|  | ${prefix}join
-|  | ${prefix}leave
-|  | ${prefix}autobio
-|  | ${prefix}block
-|  | ${prefix}autolikestatus
-|  | ${prefix}unblock
-|  | ${prefix}antidelete on
-|  | ${prefix}anticall
-|  | ${prefix}settings
-|  | ${prefix}setname
-|  | ${prefix}vv
-|  | ${prefix}del
-════════════════════
+⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗 𝗚𝗥𝗢𝗨𝗣𝗦 』
+│ ⬡ kickall
+│ ⬡ kick
+│ ⬡ remove
+│ ⬡ tagall
+│ ⬡ hidetag
+│ ⬡ close
+│ ⬡ open
+│ ⬡ link
+│ ⬡ antilink
+│ ⬡ antitag
+│ ⬡ promote
+│ ⬡ demote
+╰──────────────────⭓
 
-════════════════════
-   *INCONNU-XD IA*
-════════════════════
-|  | ${prefix}ai
-|  | ${prefix}bug
-|  | ${prefix}report
-|  | ${prefix}chatbot
-|  | ${prefix}gpt
-|  | ${prefix}inconnu-ai
-════════════════════
-
-════════════════════
-   INCONNU-XD CONVERTER
-════════════════════
-|  | ${prefix}attp
-|  | ${prefix}gimage
-|  | ${prefix}play
-|  | ${prefix}video
-════════════════════
-
-════════════════════
-   *INCONNU-XD SEARCH* 
-════════════════════
-|  | ${prefix}google
-|  | ${prefix}mediafire
-|  | ${prefix}facebook
-|  | ${prefix}instagram
-|  | ${prefix}tiktok
-|  | ${prefix}lyrics
-|  | ${prefix}imdb
-════════════════════
-
-════════════════════
-   *INCONNU-XD FUN*
-════════════════════
-|  | ${prefix}getpp
-|  | ${prefix}url
-|  | ${prefix}roast
-════════════════════
-
-════════════════════
-   *INCONNU GROUP MENU*
-════════════════════
-|  | ${prefix}kickall
-|  | ${prefix}kick
-|  | ${prefix}remove
-|  | ${prefix}tagall
-|  | ${prefix}hidetag
-|  | ${prefix}close
-|  | ${prefix}open
-|  | ${prefix}link
-|  | ${prefix}antilink
-|  | ${prefix}antitag
-|  | ${prefix}promote
-|  | ${prefix}demote
-════════════════════
-
-> *⚡ INCONNU BOY TECH ⚡*
+─────────────────────⭓
+    ⚡ 𝙄𝙉𝘾𝙊𝙉𝙉𝙐 𝘽𝙊𝙔 𝙏𝙀𝘾𝙃 ⚡
+─────────────────────⭓
 
 `;
 
