@@ -56,11 +56,11 @@ const deepseek = async (m, Matrix) => {
     const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
     const prompt = m.body.slice(prefix.length + cmd.length).trim();
 
-    const validCommands = ['inconnu-ai'];
+    const validCommands = ['inconnu boy'];
 
     if (validCommands.includes(cmd)) {
         if (!prompt) {
-            await Matrix.sendMessage(m.from, { text: 'Please give me a prompt' }, { quoted: m });
+            await Matrix.sendMessage(m.from, { text: 'Please give me a prompt 🙂' }, { quoted: m });
             return;
         }
 
