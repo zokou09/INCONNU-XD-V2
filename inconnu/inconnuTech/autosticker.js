@@ -5,8 +5,8 @@ const stickerCommand = async (m, gss) => {
   const prefix = config.PREFIX;
   const [cmd, arg] = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ') : ['', ''];
 
-  const packname = global.packname || "饾懐饾懆饾懙饾懞-饾悡饾惓 饾懟饾懍饾應饾懐";
-  const author = global.author || "馃サ馃挮馃懣";
+  const packname = global.packname || "_INCONNU-XD-V2_";
+  const author = global.author || "_INCONNU BOY_";
 
   const validCommands = ['sticker', 's', 'autosticker'];
 
@@ -60,4 +60,4 @@ const stickerCommand = async (m, gss) => {
 };
 
 export default stickerCommand;
-      
+    
