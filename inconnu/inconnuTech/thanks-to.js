@@ -20,7 +20,7 @@ const thanksCommand = async (m, Matrix) => {
 
     try {
         await Matrix.sendMessage(m.from, {
-            image: { url: 'https://files.catbox.moe/e65j50.jpeg' },
+            image: { url: 'https://files.catbox.moe/e1k73u.jpg' },
             caption: message,
             contextInfo: {
                 mentionedJid: [m.sender],
