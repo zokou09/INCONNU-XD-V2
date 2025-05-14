@@ -12,7 +12,7 @@ const menu = async (m, sock) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    let profilePictureUrl = 'https://files.catbox.moe/959dyk.jpg'; // Default image URL
+    let profilePictureUrl = 'https://files.catbox.moe/e1k73u.jpg'; // Default image URL
     try {
       const pp = await sock.profilePictureUrl(m.sender, 'image');
       if (pp) {
