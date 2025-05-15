@@ -40,17 +40,22 @@ const menu = async (m, sock) => {
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗢𝗪𝗡𝗘𝗥 』
 │ ⬡ join
+│ ⬡ autoread
 │ ⬡ leave
-│ ⬡ autobio
+│ ⬡ autostatusview
+│ ⬡ autotyping
+│ ⬡ autoblock
+│ ⬡ autorecording
+│ ⬡ autosticker
+│ ⬡ restart
 │ ⬡ block
 │ ⬡ unblock
-│ ⬡ autolikestatus
-│ ⬡ antidelete on
 │ ⬡ anticall
-│ ⬡ settings
+│ ⬡ upload
 │ ⬡ setname
 │ ⬡ vv
 │ ⬡ cal
+│ ⬡ alwaysonline
 │ ⬡ delete
 │ ⬡ inconnu add
 │ ⬡ inconnu del
@@ -63,6 +68,7 @@ const menu = async (m, sock) => {
 │ ⬡ ai
 │ ⬡ bug
 │ ⬡ report
+│ ⬡ gemini
 │ ⬡ chatbot
 │ ⬡ gpt
 │ ⬡ inconnu-ai
@@ -82,12 +88,16 @@ const menu = async (m, sock) => {
 │ ⬡ tiktok
 │ ⬡ lyrics
 │ ⬡ imdb
+│ ⬡ ghstalk
 │ ⬡ image
 │ ⬡ playstore
+│ ⬡ shazam
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗙𝗨𝗡 』
 │ ⬡ getpp
 │ ⬡ url
+│ ⬡ quiz
+│ ⬡ yesorno
 │ ⬡ movie
 │ ⬡ flirt
 │ ⬡ givetext
@@ -114,12 +124,12 @@ const menu = async (m, sock) => {
 │ ⬡ vcf
 │ ⬡ promoteall
 │ ⬡ demoteall
+│ ⬡ setdescription
 │ ⬡ linkgc
 │ ⬡ antilink
 │ ⬡ setname
 │ ⬡ promote
 │ ⬡ demote
-│ ⬡ antidelete
 │ ⬡ groupinfo
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗛𝗘𝗡𝗧𝗔𝗜 』
