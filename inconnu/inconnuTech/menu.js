@@ -64,6 +64,7 @@ const menu = async (m, sock) => {
 │ ⬡ vv2
 │ ⬡ setprefix
 │ ⬡ Profile
+│ ⬡ repo
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗔𝗜 』
 │ ⬡ ai
