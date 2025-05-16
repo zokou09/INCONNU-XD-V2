@@ -78,7 +78,6 @@ const menu = async (m, sock) => {
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗖𝗩𝗧𝗥 』
 │ ⬡ attp
 │ ⬡ gimage
-│ ⬡ play
 │ ⬡ mp3
 │ ⬡ url
 │ ⬡ sticker
@@ -90,6 +89,7 @@ const menu = async (m, sock) => {
 │ ⬡ instagram
 │ ⬡ tiktok
 │ ⬡ lyrics
+│ ⬡ app
 │ ⬡ imdb
 │ ⬡ ghstalk
 │ ⬡ image
