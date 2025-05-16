@@ -1,39 +1,63 @@
 import config from '../../config.cjs';
 
-const tagall = async (m, gss) => {
-  try {
-    const botNumber = await gss.decodeJid(gss.user.id);
-    const prefix = config.PREFIX;
-    const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
-    const text = m.body.slice(prefix.length + cmd.length).trim();
+// ⚙️ Hidetag Command (Open to Everyone) ⚙️
+const tagEveryoneSilently = async (message, sock) => {
+  // 🔑 Get Command Prefix 🔑
+  const trigger = config.PREFIX;
 
-    const validCommands = ['hidetag'];
-    if (!validCommands.includes(cmd)) return;
-    if (!m.isGroup) return m.reply("*📛 This command can only be used in groups.*");
+  // 🔍 Detect User Command 🔍
+  const userCommand = message.body.startsWith(trigger)
+    ? message.body.slice(trigger.length).trim().split(' ')[0].toLowerCase()
+    : '';
 
-    const groupMetadata = await gss.groupMetadata(m.from);
-    const participants = groupMetadata.participants;
+  // ✅ Handle 'hidetag' Logic ✅
+  if (userCommand === 'hidetag') {
+    // 🛡️ Check Group Context 🛡️
+    if (!message.isGroup) {
+      return await sock.sendMessage(
+        message.from,
+        { text: '🚫 This command only works in group chats.' },
+        { quoted: message }
+      );
+    }
 
-    const botAdmin = participants.find(p => p.id === botNumber)?.admin;
-    const senderAdmin = participants.find(p => p.id === m.sender)?.admin;
+    try {
+      // 📡 Get Group Info 📡
+      const groupData = await sock.groupMetadata(message.from);
+      const participants = groupData.participants;
+      const mentions = participants.map(p => p.id);
 
-    if (!botAdmin) return m.reply("*📛 The bot must be an admin to use this command.*");
-    if (!senderAdmin) return m.reply("*📛 You must be an admin to use this command.*");
+      // ✉️ Extract Message Text ✉️
+      const textContent = message.quoted?.text || message.body.slice(trigger.length + userCommand.length).trim();
 
-    const messageToSend = m.quoted?.text || text;
-    if (!messageToSend) return m.reply("*❎ Reply to a message or type some text after the command.*");
+      if (!textContent) {
+        return await sock.sendMessage(
+          message.from,
+          { text: '❌ Please reply to a message or add text after the command.' },
+          { quoted: message }
+        );
+      }
 
-    const signature = "\n\n_🔊 BY INCONNU XD V2_";
+      const silentNote = `_🔊 INCONNU XD V2_`;
 
-    await gss.sendMessage(m.from, {
-      text: `乂 *ATTENTION EVERYONE* 乂\n\n${messageToSend}${signature}`,
-      mentions: participants.map(p => p.id)
-    }, { quoted: m });
-
-  } catch (error) {
-    console.error('Hidetag Error:', error);
-    await m.reply('❌ An error occurred while processing the command.');
+      // 🚀 Send Silent Mention Message 🚀
+      await sock.sendMessage(
+        message.from,
+        {
+          text: `${textContent}\n\n${silentNote}`,
+          mentions
+        },
+        { quoted: message }
+      );
+    } catch (err) {
+      console.error('Hidetag Error:', err);
+      await sock.sendMessage(
+        message.from,
+        { text: '⚠️ An error occurred while sending the silent tag message.' },
+        { quoted: message }
+      );
+    }
   }
 };
 
-export default tagall;
+export default tagEveryoneSilently;
