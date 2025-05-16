@@ -91,6 +91,7 @@ const menu = async (m, sock) => {
 │ ⬡ lyrics
 │ ⬡ app
 │ ⬡ imdb
+│ ⬡ pinterest
 │ ⬡ ghstalk
 │ ⬡ image
 │ ⬡ playstore
