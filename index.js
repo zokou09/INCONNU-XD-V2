@@ -117,13 +117,14 @@ async function start() {
 
                     const image = { url: "https://files.catbox.moe/e1k73u.jpg" };
                     const caption = `
-┌═『 *INCONNU - XD-V2* 』
-│ > BOT    : INCONNU-XD
-│ > OWNER  : INCONNU BOY
-│ > MODE    : public
-│ > PRE
-│ > STATUS  :  ONLINE 
-└══════════════════┘`;
+╔═════════════════
+║ *✅INCONNU CONNECTED*         
+╠═════════════════
+║ *⚡DEV INCONNU BOY*       
+╚═════════════════
+║ *⌛NUM DEV :+554488138425*       
+╚═════════════════
+`;
 
                     await Matrix.sendMessage(Matrix.user.id, {
                         image,
