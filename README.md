@@ -4,8 +4,9 @@
   </a>
 </p>
 
-> A powerful and customizable multipurpose WhatsApp bot built on the MD system. Fork it, deploy it, and start using it across various platforms with ease!
-
+<p align="center">
+  <img src="https://files.catbox.moe/230q0c.jpg" width="700"/>
+</p>
 ---
 
 ## ⭐ Fork the Repository
