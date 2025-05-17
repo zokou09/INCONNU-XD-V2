@@ -4,8 +4,6 @@
   </a>
 </p>
 
-<h1 align="center">✨ THE NEXT GEN WHATSAPP BOT ✨<br>BY INCONNU BOY</h1>
-
 > A powerful and customizable multipurpose WhatsApp bot built on the MD system. Fork it, deploy it, and start using it across various platforms with ease!
 
 ---
