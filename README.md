@@ -1,141 +1,79 @@
+# ✨ JOEL-XMD ✨
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF00AA&center=true&vCenter=true&width=1000&lines=WELCOME+TO+INCONNU-XD+V2;BY+INCONNU+BOY+TECH;FORK+%26+STAR+THIS+REPO;THANK+YOU+FOR+YOUR+SUPPORT!">
-</p>
-<p align="center">
-  <img src="https://files.catbox.moe/230q0c.jpg" width="700" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/INCONNU-BOY">
-    <img src="https://img.shields.io/badge/Author-INCONNU%20BOY-ff004d?style=for-the-badge&logo=github" />
-  </a>
-  <a href="https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R">
-    <img src="https://img.shields.io/badge/Follow%20on-WhatsApp-25D366?style=for-the-badge&logo=whatsapp" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://profile-counter.glitch.me/INCONNU-XD-V2/count.svg" alt="Visitor Count" />
-</p>
+> A powerful and customizable multipurpose WhatsApp bot built on the MD system. Fork it, deploy it, and start using it across various platforms with ease!
 
 ---
 
-# âš™ï¸ INCONNU-XD V2
+## ⭐ Fork the Repository
 
-> Stylish, fast, and Otaku-themed multi-function WhatsApp bot powered by **BUTTERFLY-MD**.
+Click the button below to fork the repository and get your own copy:
 
-## âœ¨ Key Features
-
-- Anime Wallpapers, GIFs, Stickers
-- AI Chatbot (OpenAI)
-- Music, Video, and Instagram Downloader
-- Anti-Link System & Group Moderation
-- Fun, Random, Tools, and Converter commands
-- Premium APIs & beautiful UI
+[![FORK REPO](https://img.shields.io/badge/FORK%20REPO-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://github.com/joeljamestech2/JOEL-XMD/fork)
 
 ---
 
-## âš¡ Setup Guide
+## ⚙️ Get Your SESSION_ID
 
-### 1. Clone the repository
+Don’t have a `SESSION_ID` yet? Click below, enter your phone number (including country code, e.g., +33...), scan the QR code, and copy your session ID:
 
-```bash
-git clone https://github.com/INCONNU-BOY/INCONNU-XD-V2
-cd INCONNU-XD-V2
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Edit the config
-
-Open `config.cjs` and fill in your settings:
-
-```js
-module.exports = {
-  SESSION_ID: 'your-session-id',
-  OWNER_NAME: 'INCONNU BOY',
-  OWNER_NUMBER: '554488138425',
-  PREFIX: '.',
-  MODE: 'public',
-  AUTO_BLOCK: true
-}
-```
-
-### 4. Run the bot
-
-```bash
-node index.js
-```
+[![QR CODE](https://img.shields.io/badge/QR%20CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://joel-xmd-mega-amaxmai-e14d9465a1cd.herokuapp.com/qr)
 
 ---
 
-## ðŸš€ Deploy INCONNU-XD V2 Anywhere
+## 🚀 Quick Deployment Options
 
-### â–¶ï¸ Render
+### Heroku
 
-[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-06B6D4?style=for-the-badge&logo=render)](https://dashboard.render.com/deploy?repo=https://github.com/INCONNU-BOY/INCONNU-XD-V2)
+One-click deploy to Heroku:
 
-- Build Command: `npm install`
-- Start Command: `node index.js`
-
----
-
-### â–¶ï¸ Replit
-
-[![Deploy on Replit](https://img.shields.io/badge/Deploy%20to-Replit-orange?style=for-the-badge&logo=replit)](https://replit.com/github/INCONNU-BOY/INCONNU-XD-V2)
-
-- Paste your session ID in `config.cjs`
-- Run: `node index.js`
+[![HEROKU](https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
-### â–¶ï¸ Railway
+### Replit
 
-[![Deploy on Railway](https://img.shields.io/badge/Deploy%20to-Railway-8B5CF6?style=for-the-badge&logo=railway)](https://railway.app/new/template?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2)
+Use your Replit account for easy deployment:
 
-- Recommended for CI/CD or permanent hosting
+1. Click the button below  
+2. Open `config.json`  
+3. Paste your `SESSION_ID` and MongoDB URI  
+4. Run the project and enjoy!
 
----
-
-### â–¶ï¸ Koyeb
-
-[![Deploy on Koyeb](https://img.shields.io/badge/Deploy%20to-Koyeb-FF009D?style=for-the-badge&logo=koyeb)](https://app.koyeb.com/services/deploy?type=git&repository=INCONNU-BOY/INCONNU-XD-V2&ports=3000)
-
-- Port: `3000`
-- Start: `node index.js`
+[![REPLIT](https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
-### â–¶ï¸ Heroku
+### Railway
 
-[![Deploy on Heroku](https://img.shields.io/badge/Deploy%20to-Heroku-FF004D?style=for-the-badge&logo=heroku)](https://heroku.com/deploy?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2)
+Deploy on Railway in minutes:
 
-- Buildpacks: `heroku/nodejs`
-- Command: `node index.js`
-
----
-
-## ðŸ§  Developer Tools
-
-- Written in Node.js  
-- Supports hot reload with `nodemon`  
-- Use `./lib` for module editing  
-- Premium APIs configured inside `lib/api.js`  
+[![RAILWAY](https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
-## ðŸ‘‘ Credits
+### Koyeb (⚠️ Under Maintenance)
 
-- Developed by: [INCONNU BOY](https://github.com/INCONNU-BOY)  
-- Community: ButterflyÂ¹â¶ Kingdom  
-- Engine Base: [BUTTERFLY-MD]  
-- Inspired by: Otaku, Japan Vibes, and Bot Clash Style
+[![KOYEB](https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
-Â© 2025 By INCONNU BOY BUTTERFLY | All Rights Reserved  
+### Glitch
+
+[![GLITCH](https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+
+---
+
+### CodeSpace
+
+[![CODESPACE](https://img.shields.io/badge/CODESPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+
+---
+
+## ❤️ Credits
+
+If you love this project, consider giving it a **star** to support us!  
+Proudly developed by [@joeljamestech2](https://github.com/joeljamestech2)
+
+---
+
+©️ 2025 - JOEL-XMD
