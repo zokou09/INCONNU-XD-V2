@@ -36,7 +36,7 @@ const ping = async (m, sock) => {
           externalAdReply: {
             title: "inconnu xd v2",
             body: "ᴘɪɴɢ sᴘᴇᴇᴅ ᴄᴀʟᴄᴜʟᴀᴛɪᴏɴs",
-            thumbnailUrl: 'https://avatars.githubusercontent.com/u/162905644?v=4', // Add thumbnail URL if required
+            thumbnailUrl: 'https://files.catbox.moe/e1k73u.jpg', // Add thumbnail URL if required
             sourceUrl: 'https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R', // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: false,
@@ -74,7 +74,7 @@ const ping = async (m, sock) => {
             externalAdReply: {
               title: "inconnu xd v2",
               body: "ʜᴇʀᴇ'ʀᴇ ᴀ ᴊᴏᴋᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ʟᴀᴜɢʜ",
-              thumbnailUrl: 'https://avatars.githubusercontent.com/u/162905644?v=4', // Add thumbnail URL if required
+              thumbnailUrl: 'https://files.catbox.moe/e1k73u.jpg', // Add thumbnail URL if required
               sourceUrl: 'https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R', // Add source URL if necessary
               mediaType: 1,
               renderLargerThumbnail: false,
