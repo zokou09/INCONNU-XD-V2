@@ -1,4 +1,10 @@
-# ✨ JOEL-XMD ✨
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=80&pause=1000&color=8A2BE2&center=true&vCenter=true&width=1000&height=200&lines=INCONNU-XD;VERSION+2025;BY+INCONNU+BOY" alt="Typing SVG" />
+  </a>
+</p>
+
+<h1 align="center">✨ THE NEXT GEN WHATSAPP BOT ✨<br>BY INCONNU BOY</h1>
 
 > A powerful and customizable multipurpose WhatsApp bot built on the MD system. Fork it, deploy it, and start using it across various platforms with ease!
 
