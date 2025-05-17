@@ -34,43 +34,29 @@ Click the button below to fork the repository and get your own copy:
 
 ## 🚀 Quick Deployment Options
 
-### Heroku
-
-[![HEROKU](https://img.shields.io/badge/DEPLOY%20ON-HEROKU-7952B3?style=for-the-badge&logo=heroku)](https://deployments-web-joel-xmd-bot.vercel.app/)
-
----
-
-### Replit
-
-[![REPLIT](https://img.shields.io/badge/DEPLOY%20ON-REPLIT-F26207?style=for-the-badge&logo=replit)](https://deployments-web-joel-xmd-bot.vercel.app/)
-
----
-
-### Railway
-
-[![RAILWAY](https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-0B0D0D?style=for-the-badge&logo=railway)](https://deployments-web-joel-xmd-bot.vercel.app/)
-
----
-
-### Koyeb 
-
-[![KOYEB](<a href="https://app.koyeb.com/services/deploy?type=git&repository=INCONNU-BOY/INCONNU-XD-V1&ports=3000">
-    <img src="https://img.shields.io/badge/Deploy-Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white" />
+<p align="center">
+  <a href="https://replit.com/github/INCONNU-BOY/INCONNU-XD-V2">
+    <img src="https://img.shields.io/badge/Deploy%20To%20Replit-FFA500?style=for-the-badge&logo=replit&logoColor=white" />
+  </a>
+  <a href="https://railway.app/new/template?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2">
+    <img src="https://img.shields.io/badge/Deploy%20To%20Railway-8B5CF6?style=for-the-badge&logo=railway&logoColor=white" />
+  </a>
+  <a href="https://render.com/">
+    <img src="https://img.shields.io/badge/Deploy%20To%20Render-06B6D4?style=for-the-badge&logo=render&logoColor=white" />
   </a>
 </p>
 
-
----
-
-### Glitch
-
-[![GLITCH](https://img.shields.io/badge/DEPLOY%20ON-GLITCH-AA00FF?style=for-the-badge&logo=glitch)](https://deployments-web-joel-xmd-bot.vercel.app/)
-
----
-
-### CodeSpace
-
-[![CODESPACE](https://img.shields.io/badge/DEPLOY%20ON-CODESPACE-2B7489?style=for-the-badge&logo=github)](https://deployments-web-joel-xmd-bot.vercel.app/)
+<p align="center">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2/tree/main">
+    <img src="https://img.shields.io/badge/Deploy-Heroku-FF004D?style=for-the-badge&logo=heroku&logoColor=white" />
+  </a>
+  <a href="https://host.talkdrove.com/share-bot/82">
+    <img src="https://img.shields.io/badge/Deploy-TaikDrove-6971FF?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  </a>
+  <a href="https://app.koyeb.com/services/deploy?type=git&repository=INCONNU-BOY/INCONNU-XD-V2&ports=3000">
+    <img src="https://img.shields.io/badge/Deploy-Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white" />
+  </a>
+</p>
 
 ---
 ### 📦 Download the Bot File
