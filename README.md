@@ -119,9 +119,7 @@ jobs:
 ```
 
 ## ❤️ Credits
-
-If you love this project, consider giving it a **star** to support us!  
-Proudly developed by [@joeljamestech2](https://github.com/joeljamestech2)
+[![GitHub - INCONNU-BOY](https://img.shields.io/badge/GitHub-INCONNU--BOY-181717?style=for-the-badge&logo=github)](https://github.com/INCONNU-BOY)
 
 ---
 
