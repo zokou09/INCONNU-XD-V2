@@ -115,14 +115,14 @@ async function start() {
                 if (initialConnection) {
                     console.log(chalk.green("✅ INCONNU-XD is now online!"));
 
-                    const image = { url: "https://files.catbox.moe/959dyk.jpg" };
+                    const image = { url: "https://files.catbox.moe/e1k73u.jpg" };
                     const caption = `
 ┌═『 *INCONNU - XD-V2* 』
-│ > BOT       : INCONNU-XD
-│ > OWNER     : INCONNU BOY
-│ > MODE      : public
-│ > PREFIX    : .
-│ > STATUS    :  ONLINE 
+│ > BOT    : INCONNU-XD
+│ > OWNER  : INCONNU BOY
+│ > MODE    : public
+│ > PRE
+│ > STATUS  :  ONLINE 
 └══════════════════┘`;
 
                     await Matrix.sendMessage(Matrix.user.id, {
