@@ -8,7 +8,7 @@
 
 Click the button below to fork the repository and get your own copy:
 
-[![FORK REPO](https://img.shields.io/badge/FORK%20REPO-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://github.com/joeljamestech2/JOEL-XMD/fork)
+[![FORK REPO](https://img.shields.io/badge/FORK%20REPO-Click%20Here-007ACC?style=for-the-badge&logo=github)](https://github.com/joeljamestech2/JOEL-XMD/fork)
 
 ---
 
@@ -16,7 +16,7 @@ Click the button below to fork the repository and get your own copy:
 
 Don’t have a `SESSION_ID` yet? Click below, enter your phone number (including country code, e.g., +33...), scan the QR code, and copy your session ID:
 
-[![QR CODE](https://img.shields.io/badge/QR%20CODE-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://joel-xmd-mega-amaxmai-e14d9465a1cd.herokuapp.com/qr)
+[![QR CODE](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://joel-xmd-mega-amaxmai-e14d9465a1cd.herokuapp.com/qr)
 
 ---
 
@@ -26,7 +26,7 @@ Don’t have a `SESSION_ID` yet? Click below, enter your phone number (including
 
 One-click deploy to Heroku:
 
-[![HEROKU](https://img.shields.io/badge/HEROKU-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+[![HEROKU](https://img.shields.io/badge/DEPLOY%20ON-HEROKU-7952B3?style=for-the-badge&logo=heroku)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
@@ -39,7 +39,7 @@ Use your Replit account for easy deployment:
 3. Paste your `SESSION_ID` and MongoDB URI  
 4. Run the project and enjoy!
 
-[![REPLIT](https://img.shields.io/badge/REPLIT-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+[![REPLIT](https://img.shields.io/badge/DEPLOY%20ON-REPLIT-F26207?style=for-the-badge&logo=replit)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
@@ -47,25 +47,25 @@ Use your Replit account for easy deployment:
 
 Deploy on Railway in minutes:
 
-[![RAILWAY](https://img.shields.io/badge/RAILWAY-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+[![RAILWAY](https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-0B0D0D?style=for-the-badge&logo=railway)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
-### Koyeb (⚠️ Under Maintenance)
+### Koyeb 
 
-[![KOYEB](https://img.shields.io/badge/KOYEB-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+[![KOYEB](https://img.shields.io/badge/DEPLOY%20ON-KOYEB-282A36?style=for-the-badge&logo=koyeb)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
 ### Glitch
 
-[![GLITCH](https://img.shields.io/badge/GLITCH-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+[![GLITCH](https://img.shields.io/badge/DEPLOY%20ON-GLITCH-AA00FF?style=for-the-badge&logo=glitch)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
 ### CodeSpace
 
-[![CODESPACE](https://img.shields.io/badge/CODESPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode)](https://deployments-web-joel-xmd-bot.vercel.app/)
+[![CODESPACE](https://img.shields.io/badge/DEPLOY%20ON-CODESPACE-2B7489?style=for-the-badge&logo=github)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
