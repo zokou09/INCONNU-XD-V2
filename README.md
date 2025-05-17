@@ -27,7 +27,7 @@ Click the button below to fork the repository and get your own copy:
 [![PORTAL QR OR PAIR ](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://inconnu-boy-tech-bot.onrender.com/pair)
 
 ---
-## ⌛ INCONNU BOY WHATSAPP CHAÎNE SUPPORT 
+## ⌛ WHATSAPP CHANNEL SUPPORT 
 
 [![INCONNU BOY TECH](https://img.shields.io/badge/JOIN%20MY-WHATSAPP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R)
 ---
