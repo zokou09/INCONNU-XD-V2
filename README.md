@@ -66,7 +66,7 @@ Click the button below to fork the repository and get your own copy:
     <img src="https://img.shields.io/badge/Download%20Bot-file-FF009D?style=for-the-badge&logo=github&logoColor=white" alt="Download Bot File" />
   </a>
 </p>
----
+
 DEPLOY ON WORKFLOW ⚡
 
 ```
