@@ -1,8 +1,7 @@
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF00AA&center=true&vCenter=true&width=1000&lines=INCONNU-XD+V2;The+Next-Gen+Anime+WhatsApp+Bot;Powered+by+BUTTERFLY-MD">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=FF00AA&center=true&vCenter=true&width=1000&lines=WELCOME+TO+INCONNU-XD+V2;BY+INCONNU+BOY+TECH;FORK+%26+STAR+THIS+REPO;THANK+YOU+FOR+YOUR+SUPPORT!">
 </p>
-
 <p align="center">
   <img src="https://files.catbox.moe/230q0c.jpg" width="700" />
 </p>
