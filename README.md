@@ -54,7 +54,11 @@ Click the button below to fork the repository and get your own copy:
 
 ### Koyeb 
 
-[![KOYEB](https://img.shields.io/badge/DEPLOY%20ON-KOYEB-282A36?style=for-the-badge&logo=koyeb)](https://deployments-web-joel-xmd-bot.vercel.app/)
+[![KOYEB](<a href="https://app.koyeb.com/services/deploy?type=git&repository=INCONNU-BOY/INCONNU-XD-V1&ports=3000">
+    <img src="https://img.shields.io/badge/Deploy-Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white" />
+  </a>
+</p>
+
 
 ---
 
