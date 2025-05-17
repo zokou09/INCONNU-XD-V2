@@ -26,8 +26,8 @@ const menu = async (m, sock) => {
     const menuText = `
     ╭──────────────────⭓
 │  ⚡ 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2 ⚡
-│ Version: 2.0.0
-│ Dev: INCONNU BOY TECH
+│ *Version:2.0.0*
+│ *Dev:INCONNU BOY TECH*
 ╰──────────────────⭓
  ────────────────────
 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2
@@ -35,6 +35,7 @@ const menu = async (m, sock) => {
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗠𝗘𝗡𝗨 』
 │ ⬡ menu
 │ ⬡ alive
+│ ⬡ addpremium
 │ ⬡ dev
 │ ⬡ owner
 │ ⬡ butterfly 
@@ -42,6 +43,7 @@ const menu = async (m, sock) => {
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗢𝗪𝗡𝗘𝗥 』
 │ ⬡ join
 │ ⬡ autoread
+│ ⬡ pair
 │ ⬡ leave
 │ ⬡ autostatusview
 │ ⬡ autotyping
@@ -53,14 +55,10 @@ const menu = async (m, sock) => {
 │ ⬡ unblock
 │ ⬡ anticall
 │ ⬡ upload
-│ ⬡ setname
 │ ⬡ vv
 │ ⬡ calculater 
 │ ⬡ alwaysonline
 │ ⬡ delete
-│ ⬡ inconnu add
-│ ⬡ inconnu del
-│ ⬡ inconnu list
 │ ⬡ vv2
 │ ⬡ setprefix
 │ ⬡ Profile
@@ -69,6 +67,7 @@ const menu = async (m, sock) => {
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗔𝗜 』
 │ ⬡ ai
 │ ⬡ bug
+│ ⬡ Bot
 │ ⬡ report
 │ ⬡ gemini
 │ ⬡ chatbot
@@ -81,6 +80,7 @@ const menu = async (m, sock) => {
 │ ⬡ mp3
 │ ⬡ url
 │ ⬡ sticker
+│ ⬡ take
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗦𝗘𝗔𝗥𝗖𝗛 』
 │ ⬡ google
@@ -90,6 +90,7 @@ const menu = async (m, sock) => {
 │ ⬡ tiktok
 │ ⬡ lyrics
 │ ⬡ app
+│ ⬡ ipstalk
 │ ⬡ imdb
 │ ⬡ pinterest
 │ ⬡ ghstalk
@@ -99,8 +100,10 @@ const menu = async (m, sock) => {
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗙𝗨𝗡 』
 │ ⬡ getpp
-│ ⬡ quiz
+│ ⬡ wcg
 │ ⬡ yesorno
+│ ⬡ connect4
+│ ⬡ rank
 │ ⬡ movie
 │ ⬡ flirt
 │ ⬡ givetext
@@ -134,6 +137,7 @@ const menu = async (m, sock) => {
 │ ⬡ promote
 │ ⬡ demote
 │ ⬡ groupinfo
+│ ⬡ balance
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗛𝗘𝗡𝗧𝗔𝗜 』
 │ ⬡ hneko
