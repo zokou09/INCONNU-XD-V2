@@ -12,13 +12,18 @@
 
 Click the button below to fork the repository and get your own copy:
 
-[![FORK REPO](https://img.shields.io/badge/FORK%20REPO-Click%20Here-007ACC?style=for-the-badge&logo=github)](https://github.com/joeljamestech2/JOEL-XMD/fork)
+[![FORK REPO](https://img.shields.io/badge/FORK%20REPO-Click%20Here-007ACC?style=for-the-badge&logo=github)](https://github.com/INCONNU-BOY/INCONNU-XD-V2/fork)
 
 ---
 
-## ⚙️ Get Your SESSION_ID
+## ⚙️ Get Your PORTAL QR OR PAIR 
 
-[![QR CODE](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://joel-xmd-mega-amaxmai-e14d9465a1cd.herokuapp.com/qr)
+[![PORTAL QR OR PAIR ](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://inconnu-boy-tech-bot.onrender.com/)
+
+---
+## ⚙️ PAIR CODE
+
+[![PORTAL QR OR PAIR ](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://inconnu-boy-tech-bot.onrender.com/)
 
 ---
 
