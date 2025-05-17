@@ -18,8 +18,6 @@ Click the button below to fork the repository and get your own copy:
 
 ## ⚙️ Get Your SESSION_ID
 
-Don’t have a `SESSION_ID` yet? Click below, enter your phone number (including country code, e.g., +33...), scan the QR code, and copy your session ID:
-
 [![QR CODE](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://joel-xmd-mega-amaxmai-e14d9465a1cd.herokuapp.com/qr)
 
 ---
@@ -28,28 +26,17 @@ Don’t have a `SESSION_ID` yet? Click below, enter your phone number (including
 
 ### Heroku
 
-One-click deploy to Heroku:
-
 [![HEROKU](https://img.shields.io/badge/DEPLOY%20ON-HEROKU-7952B3?style=for-the-badge&logo=heroku)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
 ### Replit
 
-Use your Replit account for easy deployment:
-
-1. Click the button below  
-2. Open `config.json`  
-3. Paste your `SESSION_ID` and MongoDB URI  
-4. Run the project and enjoy!
-
 [![REPLIT](https://img.shields.io/badge/DEPLOY%20ON-REPLIT-F26207?style=for-the-badge&logo=replit)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
 
 ### Railway
-
-Deploy on Railway in minutes:
 
 [![RAILWAY](https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-0B0D0D?style=for-the-badge&logo=railway)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
