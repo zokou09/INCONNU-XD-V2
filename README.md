@@ -65,7 +65,9 @@ Click the button below to fork the repository and get your own copy:
 [![CODESPACE](https://img.shields.io/badge/DEPLOY%20ON-CODESPACE-2B7489?style=for-the-badge&logo=github)](https://deployments-web-joel-xmd-bot.vercel.app/)
 
 ---
-``` DEPLOY ON WORKFLOW ⚡
+DEPLOY ON WORKFLOW ⚡
+
+```
 
 name: Node.js CI
 
