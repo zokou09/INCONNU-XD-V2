@@ -9,7 +9,7 @@ import {
     useMultiFileAuthState,
 } from '@whiskeysockets/baileys';
 
-import { Handler, Callupdate, GroupUpdate } from './inconnu/inconnuTz/index.js';
+import { Handler, Callupdate, GroupUpdate } from './inconnu/inconnuboy/index.js';
 import express from 'express';
 import pino from 'pino';
 import fs from 'fs';
