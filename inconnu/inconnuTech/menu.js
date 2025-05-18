@@ -26,8 +26,8 @@ const menu = async (m, sock) => {
     const menuText = `
     ╭──────────────────⭓
 │  ⚡ 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2 ⚡
-│ *Version:2.0.0*
-│ *Dev:INCONNU BOY TECH*
+│ *Version : 2.0.0*
+│ *Dev : INCONNU BOY TECH*
 ╰──────────────────⭓
  ────────────────────
 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2
