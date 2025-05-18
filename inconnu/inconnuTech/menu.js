@@ -36,6 +36,7 @@ const menu = async (m, sock) => {
 │ ⬡ menu
 │ ⬡ speed
 │ ⬡ alive
+│ ⬡ sudo
 │ ⬡ addpremium
 │ ⬡ dev
 │ ⬡ owner
