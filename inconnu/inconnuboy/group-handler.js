@@ -23,14 +23,14 @@ export default async function GroupParticipants(sock, { id, participants, action
                     const joinDate = moment.tz('Asia/Tanzania').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
-               text: `╭───〔 *WELCOME INCONNU XD* 〕───╮
+               text: `╭─〔 *WELCOME INCONNU XD* 〕─╮
 │  
 │  ✦ ʜᴇʏ @${userName}!
 │  ✦ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ *${metadata.subject}*
 │  ✦ ʏᴏᴜ'ʀᴇ ᴏᴜʀ ${membersCount}ᴛʜ ᴍᴇᴍʙᴇʀ
 │  ✦ ᴊᴏɪɴᴇᴅ: ${joinTime} | ${joinDate}
 │  
-╰─────────────────────━⊷"`, contextInfo: {
+╰─────────────────━⊷"`, contextInfo: {
                   mentionedJid: [jid],
                   externalAdReply: {
                      title: `ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ`,
@@ -48,14 +48,14 @@ export default async function GroupParticipants(sock, { id, participants, action
                     const leaveDate = moment.tz('Africa/Tanzaniaa').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
             sock.sendMessage(id, {
-               text: `╭──〔 *GOODBYE INCONNU XD* 〕──╮
+               text: `╭──〔 *GOODBYE INCONNU XD* 〕─╮
 │  
 │  ✦ ꜰᴀʀᴇᴡᴇʟʟ @${userName}
 │  ✦ ʏᴏᴜ ʟᴇғᴛ *${metadata.subject}*
 │  ✦ ɴᴏᴡ ᴡᴇ ᴀʀᴇ ${membersCount} sᴛʀᴏɴɢ
 │  ✦ ʟᴇꜰᴛ ᴀᴛ: ${leaveTime} | ${leaveDate}
 │  
-╰─────────────────────━⊷"`, contextInfo: {
+╰─────────────────━⊷"`, contextInfo: {
                   mentionedJid: [jid],
                   externalAdReply: {
                      title: `ɢᴏᴏᴅʙʏᴇ ᴀ ғᴏʟʟᴇɴ sᴏʟᴅɪᴇʀ`,
