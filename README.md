@@ -30,40 +30,41 @@ Click the button below to fork the repository and get your own copy:
 ## ⌛ WHATSAPP CHANNEL SUPPORT 
 
 [![INCONNU BOY TECH](https://img.shields.io/badge/JOIN%20MY-WHATSAPP%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R)
+
 ---
 
 ## 🚀 Quick Deployment Options
 
-### <br>   ❖ DEPLOY_HEROKU ❖
+### <br>   ⚡ DEPLOY_HEROKU ⚡
 
 ------------
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/Kgtech-cmr/KERM-MD-V1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2)
 
 ----------
 
-### <br>    ❖ DEPLOY_TALKDROVE
+### <br>  ⚡ DEPLOY_TALKDROVE ⚡
 
 <a href='https://host.talkdrove.com/dashboard/select-bot/prepare-deployment?botId=51' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-NOW-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 ----------
 
-### <br>    ❖ DEPLOY_REPLIT ❖AND ENJOY BOT ✠
+### <br>    ⚡ DEPLOY_REPLIT ⚡
 
 -------------
 
-<p align="left"><a href="https://repl.it/github/Kgtech-cmr/KERM-MD-V1"> <img src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
+<p align="left"><a href="https://repl.it/github/INCONNU-BOY/INCONNU-XD-V2"> <img src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 --------------
 
-### <br>   ❖ DEPLOY_KOYEB ❖
+### <br>   ⚡ DEPLOY_KOYEB ⚡
 ---------
 
 <a href='https://app.koyeb.com/auth/signin' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-KOYEB-blue?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
 
 ------------
 
-### <br>  ❖ DEPLOY_RAILWAY ❖
+### <br>  ⚡ DEPLOY_RAILWAY ⚡
 
 -------------
 
@@ -71,25 +72,29 @@ Click the button below to fork the repository and get your own copy:
 
 ---------------
 
-### <br> ❖ MORE DEPLOY METHOD ❖
+### <br> ⚡ MORE DEPLOY METHOD ⚡
 
 --------
 
-### <br>   ❖ DEPLOY_GLITCH ❖
+### <br>   ⚡ DEPLOY_GLITCH ⚡
+
 <a href='https://glitch.com/signup' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/GLITCH-h?color=pink&style=for-the-badge&logo=glitch'/></a></p>
 
 --------
-### <br>   ❖ DEPLOY_CODESPACE ❖
+
+### <br>   ⚡ DEPLOY_CODESPACE ⚡
+
 <a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CODESPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
 --------
 
-### <br>   ❖ DEPLOY_RENDER ❖
+### <br>   ⚡ DEPLOY_RENDER ⚡
+
 <a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=maroon&style=for-the-badge&logo=render'/></a></p>
 
 
 
-DEPLOY ON WORKFLOW ⚡
+⚡ DEPLOY ON WORKFLOW ⚡
 
 ```
 
