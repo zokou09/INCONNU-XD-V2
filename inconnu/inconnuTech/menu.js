@@ -132,8 +132,9 @@ const menu = async (m, sock) => {
 │ ⬡ remove
 │ ⬡ tagall
 │ ⬡ hidetag
-│ ⬡ close
-│ ⬡ open
+│ ⬡ group close
+│ ⬡ group open
+│ ⬡ add
 │ ⬡ vcf
 │ ⬡ left
 │ ⬡ promoteall
