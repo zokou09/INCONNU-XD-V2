@@ -89,6 +89,7 @@ const menu = async (m, sock) => {
 │ ⬡ instagram
 │ ⬡ tiktok
 │ ⬡ lyrics
+│ ⬡ ytsearch
 │ ⬡ app
 │ ⬡ ipstalk
 │ ⬡ imdb
