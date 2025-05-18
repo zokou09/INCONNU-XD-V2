@@ -1,36 +1,68 @@
 import config from '../../config.cjs';
 
-const deleteMessage = async (m, gss) => {
+const demote = async (m, gss) => {
   try {
     const botNumber = await gss.decodeJid(gss.user.id);
-    const isCreator = [botNumber, config.OWNER_NUMBER + '@s.whatsapp.net'].includes(m.sender);
     const prefix = config.PREFIX;
-const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
-const text = m.body.slice(prefix.length + cmd.length).trim();
+    const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
+    const text = m.body.slice(prefix.length + cmd.length).trim();
 
-    const validCommands = ['del', 'delete'];
+    const validCommands = ['demote', 'unadmin', 'todown'];
+    if (!validCommands.includes(cmd)) return;
 
-    if (validCommands.includes(cmd)) {
-      if (!isCreator) {
-        return m.reply("*σηℓу ʝσєℓ χ∂ ν тняєє ¢αη υѕє тнιѕ ¢σммαη∂*");
-      }
+    if (!m.isGroup) return m.reply("*gяσυρ ¢σммαη∂*");
 
-      if (!m.quoted) {
-        return m.reply('✳️ Reply to the message you want to delete');
-      }
+    const groupMetadata = await gss.groupMetadata(m.from);
+    const participants = groupMetadata.participants;
 
-      const key = {
-        remoteJid: m.from,
-        id: m.quoted.key.id,
-        participant: m.quoted.key.participant || m.quoted.key.remoteJid
-      };
+    const isBotAdmin = participants.find(p => p.id === botNumber)?.admin;
+    if (!isBotAdmin) return m.reply("*αм ησт α∂мιη ιη тнιѕ ι∂ισт gяσυρ*");
 
-      await gss.sendMessage(m.from, { delete: key });
+    const sender = m.sender;
+    const isOwner = sender === config.OWNER_NUMBER + '@s.whatsapp.net';
+    const isSudo = config.SUDO?.includes(sender);
+    const isGroupAdmin = participants.find(p => p.id === sender)?.admin;
+
+    if (!isOwner && !isSudo && !isGroupAdmin) {
+      return m.reply("*α∂мιη яυℓє ι∂ισт*");
     }
+
+    if (!m.mentionedJid) m.mentionedJid = [];
+    if (m.quoted?.participant) m.mentionedJid.push(m.quoted.participant);
+
+    const users = m.mentionedJid.length > 0
+      ? m.mentionedJid
+      : text.replace(/[^0-9]/g, '').length > 0
+      ? [text.replace(/[^0-9]/g, '') + '@s.whatsapp.net']
+      : [];
+
+    if (users.length === 0) {
+      return m.reply("*мєηтιση α υѕєя тσ ∂ємσтє*");
+    }
+
+    const validUsers = users.filter(Boolean);
+
+    const usernames = await Promise.all(
+      validUsers.map(async (user) => {
+        try {
+          const contact = await gss.getContact(user);
+          return contact.notify || contact.pushname || user.split('@')[0];
+        } catch {
+          return user.split('@')[0];
+        }
+      })
+    );
+
+    await gss.groupParticipantsUpdate(m.from, validUsers, 'demote')
+      .then(() => {
+        const demotedNames = usernames.map(u => `@${u}`).join(', ');
+        m.reply(`*Users ${demotedNames} demoted successfully in the group ${groupMetadata.subject}.*`);
+      })
+      .catch(() => m.reply('Failed to demote user(s) in the group.'));
   } catch (error) {
-    console.error('Error deleting message:', error);
-    m.reply('An error occurred while trying to delete the message.');
+    console.error('Error:', error);
+    m.reply('An error occurred while processing the command.');
   }
 };
 
-export default deleteMessage;
+export default demote;
