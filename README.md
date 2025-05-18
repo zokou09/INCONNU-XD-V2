@@ -34,41 +34,60 @@ Click the button below to fork the repository and get your own copy:
 
 ## 🚀 Quick Deployment Options
 
-<p align="center">
-  <a href="https://replit.com/github/INCONNU-BOY/INCONNU-XD-V2">
-    <img src="https://img.shields.io/badge/Deploy%20To%20Replit-FFA500?style=for-the-badge&logo=replit&logoColor=white" />
+### <br>   ❖ DEPLOY_HEROKU ❖
 
-### RAILWAY 
+------------
+ 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/Kgtech-cmr/KERM-MD-V1)
 
-  </a>
-  <a href="https://railway.app/new/template?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2">
-    <img src="https://img.shields.io/badge/Deploy%20To%20Railway-8B5CF6?style=for-the-badge&logo=railway&logoColor=white" />
-  </a>
-  <a href="https://render.com/">
-    <img src="https://img.shields.io/badge/Deploy%20To%20Render-06B6D4?style=for-the-badge&logo=render&logoColor=white" />
-  </a>
-</p>
+----------
 
-<p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/INCONNU-BOY/INCONNU-XD-V2/tree/main">
-    <img src="https://img.shields.io/badge/Deploy-Heroku-FF004D?style=for-the-badge&logo=heroku&logoColor=white" />
-  </a>
-  <a href="https://host.talkdrove.com/share-bot/82">
-    <img src="https://img.shields.io/badge/Deploy-TaikDrove-6971FF?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  </a>
-  <a href="https://app.koyeb.com/services/deploy?type=git&repository=INCONNU-BOY/INCONNU-XD-V2&ports=3000">
-    <img src="https://img.shields.io/badge/Deploy-Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white" />
-  </a>
-</p>
+### <br>    ❖ DEPLOY_TALKDROVE
 
----
-### 📦 Download the Bot File
+<a href='https://host.talkdrove.com/dashboard/select-bot/prepare-deployment?botId=51' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-NOW-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
 
-<p align="center">
-  <a href="https://github.com/INCONNU-BOY/INCONNU-XD-V2/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/Download%20Bot-file-FF009D?style=for-the-badge&logo=github&logoColor=white" alt="Download Bot File" />
-  </a>
-</p>
+----------
+
+### <br>    ❖ DEPLOY_REPLIT ❖AND ENJOY BOT ✠
+
+-------------
+
+<p align="left"><a href="https://repl.it/github/Kgtech-cmr/KERM-MD-V1"> <img src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
+
+--------------
+
+### <br>   ❖ DEPLOY_KOYEB ❖
+---------
+
+<a href='https://app.koyeb.com/auth/signin' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-KOYEB-blue?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+------------
+
+### <br>  ❖ DEPLOY_RAILWAY ❖
+
+-------------
+
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RAILWAY-h?color=black&style=for-the-badge&logo=railway'/></a></p>
+
+---------------
+
+### <br> ❖ MORE DEPLOY METHOD ❖
+
+--------
+
+### <br>   ❖ DEPLOY_GLITCH ❖
+<a href='https://glitch.com/signup' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/GLITCH-h?color=pink&style=for-the-badge&logo=glitch'/></a></p>
+
+--------
+### <br>   ❖ DEPLOY_CODESPACE ❖
+<a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/CODESPACE-h?color=navy&style=for-the-badge&logo=visualstudiocode'/></a></p>
+
+--------
+
+### <br>   ❖ DEPLOY_RENDER ❖
+<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/RENDER-h?color=maroon&style=for-the-badge&logo=render'/></a></p>
+
+
 
 DEPLOY ON WORKFLOW ⚡
 
