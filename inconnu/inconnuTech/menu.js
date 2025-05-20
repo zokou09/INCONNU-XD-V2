@@ -99,6 +99,7 @@ const menu = async (m, sock) => {
 │ ⬡ pinterest
 │ ⬡ githubstalk
 │ ⬡ image
+│ ⬡ ringtone
 │ ⬡ playstore
 │ ⬡ shazam
 ╰──────────────────⭓
@@ -106,7 +107,6 @@ const menu = async (m, sock) => {
 │ ⬡ getpp
 │ ⬡ wcg
 │ ⬡ joke
-│ ⬡ ringtone
 │ ⬡ ttt
 │ ⬡ yesorno
 │ ⬡ connect4
@@ -142,6 +142,7 @@ const menu = async (m, sock) => {
 │ ⬡ setdescription
 │ ⬡ linkgc
 │ ⬡ antilink
+│ ⬡ antisticker
 │ ⬡ setname
 │ ⬡ promote
 │ ⬡ demote
