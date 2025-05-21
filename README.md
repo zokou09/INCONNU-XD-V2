@@ -24,7 +24,7 @@ Click the button below to fork the repository and get your own copy:
 ---
 ## ⚙️ PAIR CODE
 
-[![PAIR CODE](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://inconnu-boy-tech-bot.onrender.com/pair)
+[![PAIR CODE](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-4CAF50?style=for-the-badge&logo=whatsapp)](https://inconnu-boy-tech-web.onrender.com/pair)
 
 ---
 ## ⌛ WHATSAPP CHANNEL SUPPORT 
