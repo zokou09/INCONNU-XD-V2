@@ -8,7 +8,7 @@ const stickerCommand = async (m, gss) => {
   const command = cmd.toLowerCase();
 
   const defaultPackname = "inconnu xd v2";
-  const defaultAuthor = "ʙᴏᴛ";
+  const defaultAuthor = "INCONNU XD V2";
 
   if (['sticker', 's', 'take'].includes(command)) {
     const quoted = m.quoted || {};
