@@ -52,6 +52,7 @@ const menu = async (m, sock) => {
 │ ⬡ autoblock
 │ ⬡ autorecording
 │ ⬡ autosticker
+│ ⬡ antisticker
 │ ⬡ restart
 │ ⬡ block
 │ ⬡ unblock
