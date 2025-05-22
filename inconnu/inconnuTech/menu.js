@@ -39,6 +39,7 @@ const menu = async (m, sock) => {
 │ ⬡ sudo
 │ ⬡ addpremium
 │ ⬡ dev
+│ ⬡ allvar
 │ ⬡ ping
 │ ⬡ owner
 ╰──────────────────⭓
