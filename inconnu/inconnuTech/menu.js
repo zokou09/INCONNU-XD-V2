@@ -83,6 +83,7 @@ const menu = async (m, sock) => {
 │ ⬡ attp
 │ ⬡ gimage
 │ ⬡ mp3
+│ ⬡ ss
 │ ⬡ url
 │ ⬡ sticker
 │ ⬡ take
