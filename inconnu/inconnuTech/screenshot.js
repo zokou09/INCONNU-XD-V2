@@ -57,3 +57,5 @@ const screenshotCommand = async (m, gss) => {
 };
 
 export default screenshotCommand;
+
+// YOEL-MD Screenshot Command
