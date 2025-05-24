@@ -157,6 +157,7 @@ const menu = async (m, sock) => {
 │ ⬡ demoteall
 │ ⬡ setdescription
 │ ⬡ linkgc
+│ ⬡ antilink2
 │ ⬡ antilink
 │ ⬡ antisticker
 │ ⬡ setname
