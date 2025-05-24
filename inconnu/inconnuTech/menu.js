@@ -61,6 +61,8 @@ const menu = async (m, sock) => {
 │ ⬡ antidelete
 │ ⬡ upload
 │ ⬡ vv
+│ ⬡ setstatusmsg
+│ ⬡ allcmds
 │ ⬡ calculater 
 │ ⬡ alwaysonline
 │ ⬡ delete
@@ -77,6 +79,7 @@ const menu = async (m, sock) => {
 │ ⬡ gemini
 │ ⬡ chatbot
 │ ⬡ gpt
+│ ⬡ lydia
 │ ⬡ inconnu-ai
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗖𝗩𝗧𝗥 』
@@ -85,18 +88,23 @@ const menu = async (m, sock) => {
 │ ⬡ mp3
 │ ⬡ ss
 │ ⬡ url
+│ ⬡ url2
+│ ⬡ shorten
 │ ⬡ sticker
 │ ⬡ take
 ╰──────────────────⭓
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗦𝗘𝗔𝗥𝗖𝗛 』
 │ ⬡ google
 │ ⬡ mediafire
+│ ⬡ quranvideo
+│ ⬡ quraimage
 │ ⬡ facebook
 │ ⬡ instagram
 │ ⬡ tiktok
 │ ⬡ lyrics
 │ ⬡ ytsearch
 │ ⬡ app
+│ ⬡ bing
 │ ⬡ ipstalk
 │ ⬡ imdb
 │ ⬡ pinterest
@@ -114,6 +122,7 @@ const menu = async (m, sock) => {
 │ ⬡ yesorno
 │ ⬡ connect4
 │ ⬡ rank
+│ ⬡ quizz
 │ ⬡ movie
 │ ⬡ flirt
 │ ⬡ givetext
@@ -123,6 +132,8 @@ const menu = async (m, sock) => {
 │ ⬡ ebinary
 │ ⬡ fetch
 │ ⬡ qc
+│ ⬡ ppcouple
+│ ⬡ poll
 │ ⬡ couple
 │ ⬡ emojimix
 │ ⬡ score
@@ -135,6 +146,8 @@ const menu = async (m, sock) => {
 │ ⬡ remove
 │ ⬡ tagall
 │ ⬡ hidetag
+│ ⬡ forward
+│ ⬡ getall
 │ ⬡ group close
 │ ⬡ group open
 │ ⬡ add
