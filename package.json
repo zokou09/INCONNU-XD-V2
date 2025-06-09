@@ -1,7 +1,7 @@
 {
   "name": "INCONNU-XD",
   "version": "2.0.0",
-  "description": "Beter than before",
+  "description": "Better than before",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,14 +13,14 @@
   "author": "INCONNU BOY",
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
+    "@whiskeysockets/baileys": "npm:asitha-new-v99",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/generative-ai": "^0.9.0",
     "@hapi/boom": "^10.0.1",
     "@xaviabot/fb-downloader": "^1.0.14",
     "acrcloud": "^1.4.0",
-    "api-dylux": "^1.8.3",
     "adm-zip": "^0.5.16",
+    "api-dylux": "^1.8.3",
     "aptoide-scraper": "^1.0.1",
     "awesome-phonenumber": "^6.8.0",
     "axios": "^1.6.8",
