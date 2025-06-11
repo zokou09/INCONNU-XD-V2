@@ -1,5 +1,17 @@
-
 import config from '../../config.cjs';
+
+// Variable globale à définir au lancement du bot, ex:
+// export const startTime = Date.now();
+// ou dans ce fichier (mais mieux en dehors pour garder la valeur persistante)
+const startTime = Date.now();
+
+const formatRuntime = (ms) => {
+  const totalSeconds = Math.floor(ms / 1000);
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  return `${hours}h ${minutes}m ${seconds}s`;
+};
 
 const menu = async (m, sock) => {
   const prefix = config.PREFIX;
@@ -12,7 +24,18 @@ const menu = async (m, sock) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    let profilePictureUrl = 'https://files.catbox.moe/e1k73u.jpg'; // Default image URL
+    // Récupérer runtime
+    const now = Date.now();
+    const runtime = formatRuntime(now - startTime);
+
+    // Récupérer mode selon utilisateur - ADAPTE CETTE PARTIE SELON TON CODE
+    // Exemple fictif:
+    const mode = m.isGroup ? "public" : "private"; // OU selon ta logique
+
+    // Récupérer nom du propriétaire
+    const ownerName = config.OWNER_NAME || "INCONNU BOY";
+
+    let profilePictureUrl = 'https://files.catbox.moe/e1k73u.jpg'; // image par défaut
     try {
       const pp = await sock.profilePictureUrl(m.sender, 'image');
       if (pp) {
@@ -20,18 +43,21 @@ const menu = async (m, sock) => {
       }
     } catch (error) {
       console.error("Failed to fetch profile picture:", error);
-      // Use the default image if fetching fails
     }
 
     const menuText = `
-    ╭──────────────────⭓
-│  ⚡ 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2 ⚡
-│ *Version : 2.0.0*
-│ *Dev : INCONNU BOY TECH*
-╰──────────────────⭓
- ────────────────────
+╭───────────────⭓
+│ ʙᴏᴛ : *ɪɴᴄᴏɴɴᴜ-xᴅ-v2*
+│ ʀᴜɴᴛɪᴍᴇ : ${runtime}
+│ ᴍᴏᴅᴇ : ${mode}
+│ ᴘʀᴇғɪx : ${prefix}
+│ ᴏᴡɴᴇʀ : ${ownerName}
+│ ᴅᴇᴠ : *ɪɴᴄᴏɴɴᴜ ʙᴏʏ*
+│ ᴠᴇʀ : *𝟸.𝟶.𝟶*
+╰───────────────⭓
+───────────────────
 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙄𝙉𝘾𝙊𝙉𝙉𝙐-𝙓𝘿-𝙑2
-────────────────────
+───────────────────
 ⭓──────────────────⭓『 𝗜𝗡𝗖𝗢𝗡𝗡𝗨-𝗫𝗗-𝗠𝗘𝗡𝗨 』
 │ ⬡ menu
 │ ⬡ speed
