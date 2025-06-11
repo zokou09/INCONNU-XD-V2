@@ -31,7 +31,7 @@ const ping = async (m, sock) => {
 │  ✦ Server: ✅ Online
 │  ✦ Version: ⚙️ *V2 Fast Mode*
 │  
-╰─────────────────────╯`;
+╰───────────────────╯`;
 
     await sock.sendMessage(m.from, {
       text: result,
