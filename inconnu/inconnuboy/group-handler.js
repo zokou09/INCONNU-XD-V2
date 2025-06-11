@@ -35,7 +35,7 @@ export default async function GroupParticipants(sock, { id, participants, action
 ✨ We hope you enjoy your stay!
 
 ┗━━━━━━━━━━━━━━━✦
-⚡ Powered by INCONNU XD V2`,
+POWERED BY INCONNU XD V2`,
                mentions: [jid],
                contextInfo: {
                   externalAdReply: {
@@ -68,7 +68,7 @@ export default async function GroupParticipants(sock, { id, participants, action
 💭 You will be missed...
 
 ┗━━━━━━━━━━━━━━━✦
-⚡ Powered by INCONNU XD V2`,
+POWERED BY INCONNU XD V2`,
                mentions: [jid],
                contextInfo: {
                   externalAdReply: {
