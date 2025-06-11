@@ -6,38 +6,45 @@ export default async function GroupParticipants(sock, { id, participants, action
       const metadata = await sock.groupMetadata(id);
 
       for (const jid of participants) {
-         let profile;
+         let profilePic;
 
          try {
-            profile = await sock.profilePictureUrl(jid, "image");
+            profilePic = await sock.profilePictureUrl(jid, "image");
          } catch {
-            profile = "https://lh3.googleusercontent.com/proxy/esjjzRYoXlhgNYXqU8Gf_3lu6V-eONTnymkLzdwQ6F6z0MWAqIwIpqgq_lk4caRIZF_0Uqb5U8NWNrJcaeTuCjp7xZlpL48JDx-qzAXSTh00AVVqBoT7MJ0259pik9mnQ1LldFLfHZUGDGY=w1200-h630-p-k-no-nu";
+            profilePic = "https://i.ibb.co/fqvKZrP/ppdefault.jpg";
          }
 
          const userName = jid.split("@")[0];
          const membersCount = metadata.participants.length;
+         const groupName = metadata.subject;
 
          if (action === "add" && config.WELCOME) {
             const joinTime = moment.tz('Africa/Kolkata').format('HH:mm:ss');
             const joinDate = moment.tz('Africa/Kolkata').format('DD/MM/YYYY');
 
             await sock.sendMessage(id, {
-               text: `╭─〔 *WELCOME INCONNU XD* 〕─╮
-│  
-│  ✦ ʜᴇʏ @${userName}!
-│  ✦ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ *${metadata.subject}*
-│  ✦ ʏᴏᴜ'ʀᴇ ᴏᴜʀ ${membersCount}ᴛʜ ᴍᴇᴍʙᴇʀ
-│  ✦ ᴊᴏɪɴᴇᴅ: ${joinTime} | ${joinDate}
-│  
-╰─────────────────━⊷`,
+               image: { url: profilePic },
+               caption: `┏━〔 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑭𝑹𝑰𝑬𝑵𝑫 〕━┓
+
+👋 Welcome @${userName}!
+🏡 Group: *${groupName}*
+🔢 You are member number: *${membersCount}*
+📆 Joined on: *${joinDate}*
+🕒 At: *${joinTime}*
+
+✨ We hope you enjoy your stay!
+
+┗━━━━━━━━━━━━━━━✦
+⚡ Powered by INCONNU XD V2`,
+               mentions: [jid],
                contextInfo: {
-                  mentionedJid: [jid],
                   externalAdReply: {
-                     title: `ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ`,
+                     title: `Welcome to the Realm`,
+                     body: `You're now part of ${groupName}`,
                      mediaType: 1,
                      previewType: 0,
                      renderLargerThumbnail: true,
-                     thumbnailUrl: profile,
+                     thumbnailUrl: profilePic,
                      sourceUrl: 'https://github.com/INCONNU-BOY/INCONNU-XD-V2'
                   }
                }
@@ -49,31 +56,35 @@ export default async function GroupParticipants(sock, { id, participants, action
             const leaveDate = moment.tz('Africa/Tanzania').format('DD/MM/YYYY');
 
             await sock.sendMessage(id, {
-               text: `╭──〔 *GOODBYE INCONNU XD* 〕─╮
-│  
-│  ✦ ꜰᴀʀᴇᴡᴇʟʟ @${userName}
-│  ✦ ʏᴏᴜ ʟᴇғᴛ *${metadata.subject}*
-│  ✦ ɴᴏᴡ ᴡᴇ ᴀʀᴇ ${membersCount} sᴛʀᴏɴɢ
-│  ✦ ʟᴇꜰᴛ ᴀᴛ: ${leaveTime} | ${leaveDate}
-│  
-╰─────────────────━⊷`,
+               image: { url: profilePic },
+               caption: `┏━〔 𝑮𝑶𝑶𝑫𝑩𝒀𝑬 𝑭𝑹𝑰𝑬𝑵𝑫 〕━┓
+
+👋 Farewell @${userName}
+🚪 Left the group: *${groupName}*
+👥 Members remaining: *${membersCount}*
+📆 Date: *${leaveDate}*
+🕒 Time: *${leaveTime}*
+
+💭 You will be missed...
+
+┗━━━━━━━━━━━━━━━✦
+⚡ Powered by INCONNU XD V2`,
+               mentions: [jid],
                contextInfo: {
-                  mentionedJid: [jid],
                   externalAdReply: {
-                     title: `ɢᴏᴏᴅʙʏᴇ ᴀ ғᴏʟʟᴇɴ sᴏʟᴅɪᴇʀ`,
+                     title: `Goodbye, fallen soldier`,
+                     body: `Farewell from ${groupName}`,
                      mediaType: 1,
                      previewType: 0,
                      renderLargerThumbnail: true,
-                     thumbnailUrl: profile,
+                     thumbnailUrl: profilePic,
                      sourceUrl: 'https://github.com/INCONNU-BOY/INCONNU-XD-V2'
                   }
                }
             });
          }
       }
-
    } catch (e) {
-      console.error("Error in GroupParticipants:", e);
-      throw e;
+      console.error("❌ Error in GroupParticipants:", e);
    }
 }
