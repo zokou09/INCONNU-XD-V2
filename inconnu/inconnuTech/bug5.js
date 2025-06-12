@@ -1,4 +1,4 @@
-import notif4 from '../../bug/notif4.js';
+import notif4 from '../../bug/inconnu5.js';
 import config from '../../config.cjs';
 
 const xforceAttack = async (message, sock) => {
