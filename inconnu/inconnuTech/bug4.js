@@ -1,4 +1,4 @@
-import bugchat from '../../bug/bugchat.js';
+import bugchat from '../../bug/inconnu3.js';
 import config from '../../config.cjs';
 
 const iosKillCommand = async (m, Matrix) => {
