@@ -160,7 +160,7 @@ const menu = async (m, sock) => {
 │ ⬡ ebinary
 │ ⬡ fetch
 │ ⬡ qc
-│ ⬡ ppcouple
+│ ⬡ couple
 │ ⬡ poll
 │ ⬡ couple
 │ ⬡ emojimix
