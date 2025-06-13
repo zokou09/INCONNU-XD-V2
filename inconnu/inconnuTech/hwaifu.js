@@ -6,7 +6,7 @@ const sendImage = async (m, sock, imageUrl, caption) => {
   try {
     await sock.sendMessage(m.from, {
       image: { url: imageUrl },
-      caption: caption + '\n\n👑 MADE BY INCONNU XD V2',
+      caption: caption + '\n\n> MADE BY INCONNU XD V2',
     });
     await m.React('✅');
   } catch (error) {
@@ -27,12 +27,12 @@ const parseCommand = (message) => {
 };
 
 // Valid NSFW commands
-const isNsfwCommand = (cmd) => ['hwaifu', 'trap', 'hneko'].includes(cmd);
+const isNsfwCommand = (cmd) =>
+  ['hwaifu', 'trap', 'hneko', 'hentai'].includes(cmd);
 
 // Main function
 const getNsfwImage = async (m, sock) => {
   const cmd = parseCommand(m);
-
   if (!isNsfwCommand(cmd)) return;
 
   await m.React('🔞');
@@ -52,6 +52,10 @@ const getNsfwImage = async (m, sock) => {
     case 'hneko':
       endpoint = 'nsfw/neko';
       caption = 'Here is your random NSFW Neko 😽';
+      break;
+    case 'hentai':
+      endpoint = 'nsfw/blowjob';
+      caption = 'Here is your NSFW Hentai 🍑';
       break;
   }
 
