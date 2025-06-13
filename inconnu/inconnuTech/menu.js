@@ -188,6 +188,7 @@ const menu = async (m, sock) => {
 │ ⬡ antilink2
 │ ⬡ antilink
 │ ⬡ antisticker
+│ ⬡ antispam
 │ ⬡ create
 │ ⬡ setname
 │ ⬡ promote
