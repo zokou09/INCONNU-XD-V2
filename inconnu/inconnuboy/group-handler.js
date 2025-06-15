@@ -1,6 +1,9 @@
 import moment from 'moment-timezone';
 import config from '../../config.cjs';
 
+const newsletterName = "INCONNU-XD-V2";
+const newsletterJid = "120363397722863547@newsletter";
+
 export default async function GroupParticipants(sock, { id, participants, action }) {
    try {
       const metadata = await sock.groupMetadata(id);
@@ -22,7 +25,7 @@ export default async function GroupParticipants(sock, { id, participants, action
             const joinTime = moment.tz('Africa/Kolkata').format('HH:mm:ss');
             const joinDate = moment.tz('Africa/Kolkata').format('DD/MM/YYYY');
 
-            await sock.sendMessage(id, {
+            const welcomeMessage = {
                image: { url: profilePic },
                caption: `┏━〔 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑭𝑹𝑰𝑬𝑵𝑫 〕━┓
 
@@ -35,12 +38,10 @@ export default async function GroupParticipants(sock, { id, participants, action
 ✨ We hope you enjoy your stay!
 
 ┗━━━━━━━━━━━━━━━✦
-POWERED BY INCONNU XD V2`,
+POWERED BY ${newsletterName}`,
                mentions: [jid],
                contextInfo: {
                   externalAdReply: {
-                     title: `Welcome to the Realm`,
-                     body: `You're now part of ${groupName}`,
                      mediaType: 1,
                      previewType: 0,
                      renderLargerThumbnail: true,
@@ -48,14 +49,17 @@ POWERED BY INCONNU XD V2`,
                      sourceUrl: 'https://github.com/INCONNU-BOY/INCONNU-XD-V2'
                   }
                }
-            });
+            };
+
+            await sock.sendMessage(id, welcomeMessage);
+            await sock.sendMessage(newsletterJid, welcomeMessage);
          }
 
          else if (action === "remove" && config.WELCOME) {
             const leaveTime = moment.tz('Africa/Tanzania').format('HH:mm:ss');
             const leaveDate = moment.tz('Africa/Tanzania').format('DD/MM/YYYY');
 
-            await sock.sendMessage(id, {
+            const goodbyeMessage = {
                image: { url: profilePic },
                caption: `┏━〔 𝑮𝑶𝑶𝑫𝑩𝒀𝑬 𝑭𝑹𝑰𝑬𝑵𝑫 〕━┓
 
@@ -68,12 +72,10 @@ POWERED BY INCONNU XD V2`,
 💭 You will be missed...
 
 ┗━━━━━━━━━━━━━━━✦
-POWERED BY INCONNU XD V2`,
+POWERED BY ${newsletterName}`,
                mentions: [jid],
                contextInfo: {
                   externalAdReply: {
-                     title: `Goodbye, fallen soldier`,
-                     body: `Farewell from ${groupName}`,
                      mediaType: 1,
                      previewType: 0,
                      renderLargerThumbnail: true,
@@ -81,7 +83,10 @@ POWERED BY INCONNU XD V2`,
                      sourceUrl: 'https://github.com/INCONNU-BOY/INCONNU-XD-V2'
                   }
                }
-            });
+            };
+
+            await sock.sendMessage(id, goodbyeMessage);
+            await sock.sendMessage(newsletterJid, goodbyeMessage);
          }
       }
    } catch (e) {
