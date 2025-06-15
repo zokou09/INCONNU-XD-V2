@@ -95,6 +95,7 @@ const menu = async (m, sock) => {
 │ ⬡ delete
 │ ⬡ vv2
 │ ⬡ setprefix
+│ ⬡ setownername
 │ ⬡ Profile
 │ ⬡ repo
 ╰──────────────────⭓
