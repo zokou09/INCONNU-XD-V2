@@ -24,7 +24,7 @@ Click the button below to fork the repository and get your own copy:
 ---
 ## ⚙️ GET YOUR SESSION 2
 
-[![PAIR CODE](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-3F51B5?style=for-the-badge&logo=whatsapp)](https://inconnu-boy-tech-web.onrender.com)
+[![PAIR CODE](https://img.shields.io/badge/GET%20SESSION_ID-Generate%20Now-3F51B5?style=for-the-badge&logo=whatsapp)](https://inconnu-tech-web-session-id.onrender.com/)
 
 
 ---
