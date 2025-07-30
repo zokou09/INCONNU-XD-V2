@@ -1,0 +1,19 @@
+
+name: Node.js CI
+
+we:
+  push:
+    branches:
+      - hand
+  pull_request:
+    branches:
+      - hand
+  schedule:
+    - cron: '0 */6 * * *'  
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
